@@ -9,6 +9,7 @@ body{
     display: flexbox;
     justify-content: space-between;
     box-shadow: 0px 0px 3px 2px #526d545d;
+    width:100vw;
 }
 .menu{
     height: 35px;
@@ -25,8 +26,8 @@ body{
 }
 .botao{
     width: 100vw;
-    display: flex;
-    flex-direction: column;
+    display: block;
+    text-align: center;
     align-items: center;
     margin-top: 20px;
     list-style: none;
@@ -105,7 +106,7 @@ transition: 5s ease-in-out;
     transform: scale(1.1);
 }
 .img-aside{
-    height: 45px;
+    height: 40px;
 }
 
 footer{
@@ -113,6 +114,7 @@ footer{
     font-family: 'League Spartan', sans-serif;
     text-align: center;
     height: 60px;
+    width: 100vw;
     margin-top: 20px;
     padding-top: 10px;
     box-shadow: 0px 0px 3px 0.5px #2b382c5b;
