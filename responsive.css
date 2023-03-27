@@ -1,0 +1,22 @@
+@media(min-width: 320px) and (max-width: 768px){
+    main{
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    aside{
+        display:flex;
+        flex-direction: row;
+        position: relative;
+        top: 32vh;
+        gap: 10px;
+        margin-left: px;
+        transition: 0.5s ease-in-out;
+        }
+
+    .img-aside{
+        height: 30px;
+    }
+}

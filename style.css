@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
+
+body{
+   background-color: #E3E9DE;
+}
+
+.cabeçalho{
+    background-image: linear-gradient(to top, #E3E9DE, #7faa82a2);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px 2px #526d545d;
+}
+.logo-img{
+    height: 65px;
+    margin-left: 40px; 
+}
+
+.botao{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    font-size: larger;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 30px;
+    text-decoration: none;
+    color: #526D54;
+    transition: 0.5s ease-in-out;
+}
+.botao:hover{
+    color: #E3E9DE;
+    background-color: #526D54;
+    border-radius: 45px;
+    transform: scale(1.1);
+}
+
+.principal{
+    font-family: 'League Spartan', sans-serif;
+    color: #526D54;  
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.principal-subtitulo{
+    font-weight: 300;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 70vw;
+}
+
+.sessao1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.principal-titulo{
+    font-size: 3em;
+
+}
+.img-sacola{
+    height: 200px;
+}
+.sessao2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.subtitulo-secundario{
+    font-size: 2em;
+}
+
+.texto-secundario{
+    margin-top: 20px;
+    font-size: 1.15em;
+}
+aside{
+display:flex;
+flex-direction: column;
+gap: 10px;
+margin-left: 10px;
+position: fixed;
+margin-top: 40vh;
+transition: 5s ease-in-out;
+}
+.botao-aside:hover{
+    border-radius: 50%;
+    transform: scale(1.1);
+}
+.img-aside{
+    height: 45px;
+}
+
+footer{
+    background-image: linear-gradient(to bottom, #E3E9DE, #7faa82a2);
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+    height: 60px;
+    margin-top: 20px;
+    padding-top: 10px;
+    box-shadow: 0px 0px 3px 0.5px #2b382c5b;
+    color:   #526D54;;
+} 
+
+footer h3, p{
+   
+    margin-bottom: 10px;
+}
