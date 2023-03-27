@@ -7,7 +7,7 @@ body{
 .cabeçalho{
     background-image: linear-gradient(to top, #E3E9DE, #7faa82a2);
     display: flexbox;
-    justify-content: space-between;
+    justify-content: space-around;
     box-shadow: 0px 0px 3px 2px #526d545d;
     width:100vw;
 }
@@ -113,7 +113,7 @@ footer{
     background-image: linear-gradient(to bottom, #E3E9DE, #7faa82a2);
     font-family: 'League Spartan', sans-serif;
     text-align: center;
-    height: 60px;
+    height: ;
     width: 100vw;
     margin-top: 20px;
     padding-top: 10px;
@@ -122,6 +122,5 @@ footer{
 } 
 
 footer h3, p{
-   
     margin-bottom: 10px;
 }
