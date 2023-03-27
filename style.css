@@ -6,36 +6,46 @@ body{
 
 .cabeçalho{
     background-image: linear-gradient(to top, #E3E9DE, #7faa82a2);
-    display:flex;
-    flex-direction: row;
+    display: flexbox;
     justify-content: space-between;
     box-shadow: 0px 0px 3px 2px #526d545d;
+}
+.menu{
+    height: 35px;
+    margin-top: 0.5px;
+    display: flex;
+    margin: auto;
+}
+.menu:hover{
+    
 }
 .logo-img{
     height: 65px;
     margin-left: 40px; 
 }
-
 .botao{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    list-style: none;
+    background-image: linear-gradient(to bottom, #E3E9DE, #7faa82a2);
+}
+
+.botao-menu{
     font-family: 'League Spartan', sans-serif;
     font-weight: 600;
-    display: inline-flex;
-    align-items: center;
     font-size: larger;
-    padding: 10px;
-    margin-top: 10px;
-    margin-right: 30px;
     text-decoration: none;
     color: #526D54;
     transition: 0.5s ease-in-out;
 }
-.botao:hover{
-    color: #E3E9DE;
-    background-color: #526D54;
-    border-radius: 45px;
+.botao-menu:hover{
+
+    color: #314132;
     transform: scale(1.1);
 }
-
 .principal{
     font-family: 'League Spartan', sans-serif;
     color: #526D54;  

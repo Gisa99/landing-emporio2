@@ -13,12 +13,17 @@
 <body>
     <header class="cabeçalho">
         <img class="logo-img" src="imagens/logo.png" alt="logo loja empório natur's">
-        <nav>
-            <a class="botao" href="">Home</a>
-            <a class="botao" href="">Produtos</a>
-            <a class="botao" href="">Loja</a>
-        </nav>
+        <img class="menu" onclick="clickMenu()" src="imagens/icon-menu.png" alt="menu">
 
+        <nav id="botao">
+            <ul class="botao">
+                <li><a class="botao-menu" href="index.html">Home</a></li>
+                <li><a class="botao-menu" href="produtos.html">Produtos</a></li>
+                <li><a class="botao-menu" href="#">Loja</a></li>
+            </ul>
+
+        </nav>
+        
     </header>
     <main class="principal">
         <section class="sessao1">
@@ -29,8 +34,8 @@
             <div><img class="img-sacola" src="imagens/sacola-removebg-preview.png" alt="imagem da sacola sustentável"></div>
         </section>
     <aside>
-         <div class="botao-aside"><a href="#"><img class="img-aside" src="imagens/inconwhats.png" alt="whatsapp"></a></div>
-        <div class="botao-aside"><a href="#"><img class="img-aside" src="imagens/instagram.png" alt="instagram"></a></div>
+         <div class="botao-aside"><a href="https://api.whatsapp.com/send?phone=554891451940&text=Ol%C3%A1,%20gostaria%20de%20melhorar%20minha%20sa%C3%BAde%20:)"><img class="img-aside" src="imagens/inconwhats.png" alt="whatsapp"></a></div>
+        <div class="botao-aside"><a href="https://www.instagram.com/emporionaturs/"><img class="img-aside" src="imagens/instagram.png" alt="instagram"></a></div>
       </aside>
         <section class="sessao2">
             <div>
@@ -46,6 +51,18 @@
       <p>Estamos localizados na Av. Polidoro Santiago, n.428, Cocal do Sul-SC</p>
 
     </footer>
+
+    <script>
+        function clickMenu(){
+            if (botao.style.display == 'block'){
+                botao.style.display = 'none'
+            }else{
+                botao.style.display = 'block'
+            }
+        }
+
+
+    </script>
     
 </body>
 </html>

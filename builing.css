@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
+
+.cabeçalho{
+    background-image: linear-gradient(to top, #E3E9DE, #7faa82a2);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px 2px #526d545d;
+}
+ 
+.logo-img{
+    height: 65px;
+    margin-left: 40px; 
+}
+
+
+.botao{
+    width:20vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 20px;
+    list-style: none;
+    justify-content: center;
+    margin-right: 60px;
+}
+.botao-menu{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    font-size: larger;
+    padding: 10px;
+    text-decoration: none;
+    color: #526D54;
+    transition: 0.5s ease-in-out;
+}
+.botao-menu:hover{
+
+    color: #314132;
+    transform: scale(1.1);
+}
+
+body{
+    background-image: linear-gradient(to top, #E3E9DE, #c5fdc9a2);
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+    color: #314132;
+}
+
+h1, h2{
+    font-size: 2em;
+}
+
+.main{
+    font-size: 1.5em;
+}
+
+footer{
+    background-image: linear-gradient(to bottom, #E3E9DE, #7faa82a2);
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+    height: 20vh;
+    margin-top: 20px;
+    padding-top: 10px;
+    box-shadow: 0px 0px 3px 0.5px #2b382c5b;
+    color:   #526D54;
+    line-height: 20px;
+} 
+
+footer h3, p{
+   
+    margin-bottom: 10px;
+}
