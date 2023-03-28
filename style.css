@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
 
+html{
+    height: 100vh;
+}
 body{
    background-color: #E3E9DE;
 }
 
 .cabeçalho{
     background-image: linear-gradient(to top, #E3E9DE, #7faa82a2);
-    display: flexbox;
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     box-shadow: 0px 0px 3px 2px #526d545d;
     width:100vw;
 }
@@ -16,16 +21,18 @@ body{
     margin-top: 0.5px;
     display: flex;
     margin: auto;
+    
 }
 .menu:hover{
     
 }
 .logo-img{
     height: 65px;
-    margin-left: 40px; 
+   
 }
 .botao{
     width: 100vw;
+    height: 10vh;
     display: block;
     text-align: center;
     align-items: center;
@@ -35,9 +42,10 @@ body{
 }
 
 .botao-menu{
+    line-height: 28px;
     font-family: 'League Spartan', sans-serif;
     font-weight: 600;
-    font-size: larger;
+    font-size: 1.5em;
     text-decoration: none;
     color: #526D54;
     transition: 0.5s ease-in-out;
@@ -95,11 +103,9 @@ body{
 aside{
 display:flex;
 flex-direction: column;
-gap: 10px;
-margin-left: 10px;
+gap: 15px;
 position: fixed;
 margin-top: 40vh;
-transition: 5s ease-in-out;
 }
 .botao-aside:hover{
     border-radius: 50%;
