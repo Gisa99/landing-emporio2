@@ -1,0 +1,80 @@
+@media(min-width: 800px){
+   
+    .cabeçalho{
+        background-image: linear-gradient(to top, #E3E9DE, #7faa82a2);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        box-shadow: 0px 0px 3px 2px #526d545d;
+    }
+    .logo-img{
+        height: 65px;
+        margin-left: 40px; 
+    }
+    .menu{
+        display: none;
+    }
+    .botao-menu, #botao{
+        display: none;
+    }
+    
+    #botao2, .botao-grande{
+        display: block;
+    }
+
+    .botao-grande{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 10px;
+        margin-right: 20px;
+        list-style: none;
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 600;
+        font-size: larger;
+        text-decoration: none;
+        color: #526D54;
+        transition: 0.5s ease-in-out;
+    }
+    .botao-grande:hover{
+        color: #2d3b2e;
+        transform: scale(1.1);
+    }
+    .principal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .sessao1{
+        display: flexbox;
+        margin: auto;
+        padding-top: 20px;
+        column-gap: 60px;
+    }
+    .div-sessao1{
+        display: block;
+        margin: auto;
+        align-items: center;
+    }
+
+    .principal-titulo{
+        font-size: 3.5rem;
+    }
+
+    .principal-subtitulo{
+        font-size: 1.5rem;
+    }
+
+    .img-sacola{
+        height: 200px;
+    }
+    .video-grande{
+        display: block;
+    }
+    .video{
+        display:none;
+    }
+
+}

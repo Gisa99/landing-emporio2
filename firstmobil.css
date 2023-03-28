@@ -32,7 +32,7 @@ body{
 }
 .botao{
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
     display: block;
     text-align: center;
     align-items: center;
@@ -42,7 +42,7 @@ body{
 }
 
 .botao-menu{
-    line-height: 28px;
+    line-height: 30px;
     font-family: 'League Spartan', sans-serif;
     font-weight: 600;
     font-size: 1.5em;
@@ -55,18 +55,38 @@ body{
     color: #314132;
     transform: scale(1.1);
 }
+
 .principal{
     font-family: 'League Spartan', sans-serif;
     color: #526D54;  
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 40px;
+}
+
+.principal-titulo{
+    font-size: 2.5em;
 }
 .principal-subtitulo{
     font-weight: 300;
-    font-size: larger;
+    font-size: medium;
+    margin-top: 20px;
+    line-break: auto;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     max-width: 70vw;
+}
+
+main{
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > section, div{
+    margin:0 auto;
+    
 }
 
 .sessao1{
@@ -76,13 +96,9 @@ body{
     margin-top: 20px;
     margin-left: 20px;
 }
-
-.principal-titulo{
-    font-size: 3em;
-
-}
 .img-sacola{
-    height: 200px;
+    height: 100px;
+    margin-right: 25px;
 }
 .sessao2{
     display: flex;
@@ -93,19 +109,28 @@ body{
 }
 
 .subtitulo-secundario{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .texto-secundario{
     margin-top: 20px;
     font-size: 1.15em;
+    padding-left: 25px;
+    padding-right: 20px;
 }
+
 aside{
 display:flex;
 flex-direction: column;
 gap: 15px;
+padding-top: 40vh;
 position: fixed;
-margin-top: 40vh;
+top: 25vh;
+left: 5px;
+}
+.botao-aside{
+    height: 35px;
+    transition: 0.5s ease-in-out;
 }
 .botao-aside:hover{
     border-radius: 50%;
@@ -114,19 +139,39 @@ margin-top: 40vh;
 .img-aside{
     height: 40px;
 }
+.video{
+    width: 250px;
+    margin: auto;
+   }
+.video-grande{
+    display:none;
+   }
 
 footer{
     background-image: linear-gradient(to bottom, #E3E9DE, #7faa82a2);
     font-family: 'League Spartan', sans-serif;
     text-align: center;
-    height: ;
+    height: 85px;
     width: 100vw;
     margin-top: 20px;
     padding-top: 10px;
     box-shadow: 0px 0px 3px 0.5px #2b382c5b;
-    color:   #526D54;;
+    color: #526D54;;
 } 
+footer > p{
+    line-break: auto;
+    line-height: 20px;
+   }
 
 footer h3, p{
     margin-bottom: 10px;
+}
+
+@media(min-width: 320px) and (max-width: 768px){
+    #botao{
+        display: none;
+    }
+    #botao2{
+        display: none;
+    }
 }
